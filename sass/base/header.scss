@@ -1,0 +1,38 @@
+$color-rojo: brown;
+
+.header {
+	background-color: $color-rojo;
+	text-align: center;
+	padding: 20px;
+	grid-area: header;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	animation-name: animacion;
+	animation-duration: 10s;
+	animation-delay: 0.3s;
+	animation-iteration-count: infinite;
+	p {
+		color: white;
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		font-size: 100%;
+	}
+}
+.headerimg {
+	height: 110px;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+	animation-name: animacionimg;
+	animation-duration: 10s;
+	animation-delay: 0.3s;
+	position: relative;
+	animation-iteration-count: infinite;
+}
+.input-search {
+	border-radius: 25px;
+	width: 80%;
+}

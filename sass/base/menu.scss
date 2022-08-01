@@ -1,0 +1,27 @@
+.menu {
+	grid-area: menu;
+	background-color: lightgray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	ul {
+		list-style: none;
+		li {
+			display: inline-block;
+			margin: 0 40px;
+			a {
+				font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+				font-size: 25px;
+				color: brown;
+				text-decoration: none;
+				display: block;
+				padding: 10px;
+				display: flex;
+				&:hover {
+					background-color: yellowgreen;
+				}
+			}
+		}
+	}
+}

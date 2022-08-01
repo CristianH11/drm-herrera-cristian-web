@@ -1,0 +1,14 @@
+.footer {
+	grid-area: footer;
+	background-color: $color-rojo;
+	text-align: center;
+	padding: 20px;
+	h6 {
+		display: flex;
+		justify-content: end;
+		align-items: center;
+		color: white;
+		font-size: 70%;
+		font-family: sans-serif;
+	}
+}
