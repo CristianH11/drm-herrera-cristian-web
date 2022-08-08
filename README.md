@@ -1,2 +1,2 @@
 # drm-herrera-cristian-web
-entrega del desafío "sass 2 + seo" - desarrollo web comisión 37690
+entrega del desafío "tercera entrega del proyecto final" - desarrollo web comisión 37690
